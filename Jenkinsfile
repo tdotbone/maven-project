@@ -18,7 +18,7 @@ stages{
             post {
                 success {
                     echo 'Now Archiving...'
-                    archiveArtifacts artifacts: '**/target/*.war'
+                    archiveArtifacts artifacts: 'C:/Users/thartzler/AppData/Local/Jenkins/workspace/FullyAutomated/webapp/target/*.war'
                 }
             }
         }
